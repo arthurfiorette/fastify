@@ -1,6 +1,6 @@
 {
   "name": "fastify",
-  "version": "4.24.1",
+  "version": "4.24.3",
   "description": "Fast and low overhead web framework, for Node.js",
   "main": "fastify.js",
   "type": "commonjs",
@@ -29,7 +29,7 @@
     "unit": "c8 tap",
     "unit:junit": "tap-mocha-reporter xunit < out.tap > test/junit-testresults.xml",
     "unit:report": "tap --cov --coverage-report=html --coverage-report=cobertura | tee out.tap",
-    "citgm": "tap --jobs=1"
+    "citgm": "tap --jobs=1 --timeout=120"
   },
   "repository": {
     "type": "git",
